@@ -1,0 +1,47 @@
+/* ==========================================
+   ESTILOS ESPECÍFICOS PARA A GALERIA DE FOTOS
+   ========================================== */
+
+.subtitulo-galeria {
+    margin-bottom: 30px;
+    color: #6e5f53;
+}
+
+/* Organização das fotos em 2 colunas no celular e até 4 no computador */
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.item-galeria {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    /* Garante que a foto não passe das bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0e5da;
+    transition: transform 0.2s;
+}
+
+/* Efeito sutil ao passar o mouse por cima da foto */
+.item-galeria:hover {
+    transform: translateY(-5px);
+}
+
+.item-galeria img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    /* Faz a foto se ajustar ao quadrado sem distorcer/esticar */
+    display: block;
+}
+
+.legenda-foto {
+    padding: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    color: #4a3f35;
+    background-color: #fff;
+}
