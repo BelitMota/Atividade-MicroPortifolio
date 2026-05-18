@@ -20,7 +20,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #1a1a1a;
+    background-color: #ffa698;
     color: #fff;
     position: sticky;
     top: 0;
@@ -42,13 +42,13 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #00adb5;
+    color: #aaecbf;
 }
 
 /* Seções */
 h2 {
     margin-bottom: 20px;
-    border-bottom: 2px solid #00adb5;
+    border-bottom: 2px solid #aaecbf;
     padding-bottom: 5px;
     display: inline-block;
 }
@@ -82,7 +82,7 @@ h2 {
 /* Botões */
 .btn {
     display: inline-block;
-    background-color: #00adb5;
+    background-color: #ffa698;
     color: #fff;
     text-decoration: none;
     padding: 8px 16px;
@@ -92,14 +92,14 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #00848a;
+    background-color: #ffa698;
 }
 
 /* Contato */
 .links-contato a {
     display: inline-block;
     margin-right: 15px;
-    color: #00adb5;
+    color: #86c79c;
     text-decoration: none;
     font-weight: bold;
     margin-top: 15px;
@@ -117,4 +117,12 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     margin-top: 40px;
+}
+
+.sobre_mim {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 20px;
 }
