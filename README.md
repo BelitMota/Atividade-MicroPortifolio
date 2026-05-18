@@ -4,4 +4,5 @@ O projeto se trata de um pequeno portifólio voltado pra crochês, contendo html
 
 - Sobre Mim
 - Poderá ver os projetos de Crochê (Amigurumis, Moda, Casa)
-- Contatos fakes
+- Navegação fuida
+- Contatos(fake)
